@@ -101,7 +101,6 @@ export function isMagentoCacheInvalidated(sections) {
     return false;
   }
 
-  // todo: Premio points may also be included here potentially
   let invalidatedCaches = {};
   try {
     invalidatedCaches = JSON.parse(localMageCacheInvalidations);
